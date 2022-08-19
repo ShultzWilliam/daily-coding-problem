@@ -3,7 +3,7 @@
 #Example: nums = [1,3,6,9,12,17] | target = 9       -> returns 3
 #If the target can not be found in the given array, return -1
 
-def binarySearch(nums, target):
+def search(nums, target):
     left,right = 0, len(nums)-1
 
     while left <= right:
@@ -21,7 +21,7 @@ def binarySearch(nums, target):
 
 
 
-def testBinarySearch():
+def testSearch():
     nums = [[1],
                [1,3,6,789],
                [12,14,378,4657,99999],
@@ -31,6 +31,6 @@ def testBinarySearch():
     targets = [1,6,99999,12,2]
 
     for i in range(len(nums)):
-        print(binarySearch(nums[i],targets[i]))
+        print(search(nums[i],targets[i]))
 
-testBinarySearch()
+testSearch()

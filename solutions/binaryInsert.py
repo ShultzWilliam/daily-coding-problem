@@ -3,7 +3,7 @@
 #              target, a given int
 #Output values: none, none function. It modifies an array but doesn't give  return value
 
-def binaryInsert(nums, target):
+def insert(nums, target):
     left, right = 0, len(nums)-1
 
     while left <= right:
@@ -24,11 +24,11 @@ def binaryInsert(nums, target):
 
     return nums
 
-def testBinaryInsert():
+def testInsert():
     nums = [[0,1,2,3],[100,1000,10000,100000,10000000,200000000,3000000000],[-15,-12,-6,-1,7,12,19]]
     targets = [9,124,3]
     for i in range(len(nums)):
-        binaryInsert(nums[i],targets[i])
+        insert(nums[i],targets[i])
         print(nums[i])
 
-testBinaryInsert()
+testInsert()
