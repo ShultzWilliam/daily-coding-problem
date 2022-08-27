@@ -3,6 +3,7 @@
 #Example: nums = [1,3,6,9,12,17] | target = 9       -> returns 3
 #If the target can not be found in the given array, return -1
 
+
 def search(nums, target):
     left,right = 0, len(nums)-1
 
