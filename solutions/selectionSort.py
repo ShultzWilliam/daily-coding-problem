@@ -1,4 +1,4 @@
-#Given an unsorted list, implement the linear sort algorithm to sort the list in ascending order
+#Given an unsorted list, implement the Selection sort algorithm to sort the list in ascending order
 #INPUT: in: list[int]
 #OUTPUT: list[int]
 
