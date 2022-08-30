@@ -44,5 +44,3 @@ def test():
     print("Testing fast Smaller Than method:")
     for i in range(len(tests)):
         print(f"Test {i+1}: {answers[i] == fastSmallerThan(tests[i])}")
-
-test()
