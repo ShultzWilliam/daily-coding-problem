@@ -1,4 +1,5 @@
 #Given a sorted array of integers, create a method that inserts a new number into the array at the correct index in O(logn) time
+#
 #Input values: nums, a list of ints
 #              target, a given int
 #Output values: none, none function. It modifies an array but doesn't give  return value
